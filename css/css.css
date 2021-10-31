@@ -72,17 +72,6 @@ header p{
 }
 
 #sub{
-    display: block;
-    width: 60%;
-    margin-left: 20%;
-    overflow: hidden;
-    background-color: #313131;
-    margin-bottom: 20px;
-    letter-spacing: 10px;
-    line-height: 300px;
-}
-
-#sub p{
     color: #fff;
     font-size: 100%;
     text-align: center;
@@ -90,13 +79,6 @@ header p{
     padding-bottom: 10px;
 }
 
-#sub img{
-    color: #fff;
-    font-size: 100%;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
 #contents p{
     color: #fff;
