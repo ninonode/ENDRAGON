@@ -10,11 +10,10 @@ color:#313131;
 img{
 outline:none;
 border-style:none;
+width: 100%;
 }
 
-img.mainimage{
-    width: 100%;
-}
+
 
 a{
     color:blue;
