@@ -60,19 +60,11 @@ header p{
 }
 
 #main{
-    display: block;
-    width: 60%;
-    margin-left: 20%;
-    overflow: hidden;
-    background-color: #313131;
+    width: 100%;
     margin-bottom: 20px;
-    letter-spacing: 10px;
-    line-height: 300px;
 }
 
-#main img{
-    width: 100%;
-}
+
 
 #sub{
     display: block;
