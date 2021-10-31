@@ -69,14 +69,15 @@ header p{
     margin-bottom: 20px;
     letter-spacing: 10px;
     line-height: 300px;
-}
-
-#sub{
-    color: #fff;
-    font-size: 100%;
+    
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#main p{
+    color: #fff;
+    font-size: 100%;
 }
 
 
