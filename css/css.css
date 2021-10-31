@@ -5,6 +5,7 @@ body{
 font: 14px/1.6 "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
 margin:0;
 color:#313131;
+font-style: normal;
 }
 
 img{
@@ -186,7 +187,6 @@ article .btn:hover{
 }
 
 footer{
-    font-style: normal;
     font-size: 80%;
     width: 100%;
     text-align: center;
