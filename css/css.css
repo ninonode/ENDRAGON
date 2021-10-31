@@ -12,6 +12,10 @@ outline:none;
 border-style:none;
 }
 
+img.mainimage{
+    width: 100%;
+}
+
 a{
     color:blue;
     -webkit-transition: all 0.5s;
