@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
 
 body{
 font: 14px/1.6 "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
@@ -14,8 +13,6 @@ outline:none;
 border-style:none;
 width: 100%;
 }
-
-
 
 a{
     color:blue;
@@ -36,7 +33,6 @@ a:hover {
     transition: all 0.5s;
 }
 
-/*****HEADER*****/
 header{
     display: block;
     width:60%;
@@ -64,8 +60,7 @@ header p{
     float: left;
 }
 
-/*****BRANDING*****/
-#center{
+#main{
     display: block;
     width: 60%;
     margin-left: 20%;
@@ -75,116 +70,38 @@ header p{
     letter-spacing: 10px;
     line-height: 300px;
 }
-#branding p{
-    color: #fff;
-    font-size: 120%;
-    padding-left: 3%;
-}
 
-/*****NAV*****/
-nav{
-    width: 100%;
-    border-top: 1px solid orange;
-    border-bottom: 1px solid orange;
-    margin-bottom: 5px;
-    overflow: hidden;
-}
-nav ul{
-    width: 60%;
-    margin-left: 20%;
-}
-nav li{
-    width: calc(25% - 2px);
-    font-size: 110%;
-    letter-spacing: 5px;
-    font-weight: 400;
-    line-height: 45px;
-    border-left: 1px solid orange;
-    color: #313131;
-    cursor: pointer;
-    text-align: center;
-    float: left;
-}
-nav li:last-child{
-    border-right: 1px solid orange;
-}
-
-nav li:hover{
-    background-color: orange;
-    transition: background-color 0.5s ease-out;
-    color: #fff;
-}
-
-/*****ARTICLE*****/
-section{
+#sub{
     display: block;
     width: 60%;
-    margin: 20px auto;
+    margin-left: 20%;
     overflow: hidden;
+    background-color: #313131;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+    line-height: 300px;
 }
-article{
-    width: calc(50% - 15px);
-    padding: 2.5%;
-    margin-bottom: 30px;
-    background-color: #f9f9f9;
-    overflow: hidden;
-    float: left;
-}
-article:nth-child(2n){
-    margin-left: 30px;
-}
-article .date{
-    font-size: 60%;
-    color: orange;
-    border: 1px solid orange;
-    padding-top:3px;
-    padding-bottom: 3px;
-    padding-right: 6px;
-    padding-left: 6px;
-    letter-spacing: 5px;
-    float: left;
-}
-article h1{
-    width: 100%;
-    font-size: 150%;
-    color: #313131;
-    letter-spacing: 3px;
-    padding-bottom:2px;
-    padding-top: 10px;
-    border-bottom: 1px solid #bababa;
-    margin-bottom: 15px;
-    float: left;
-}
-article p{
-    font-size: 100%;
-    color: #313131;
-    letter-spacing: 3px;
-    line-height: 200%;
-    margin-bottom: 10px;
-    float: left;
-}
-article .btn{
+
+#sub p{
     color: #fff;
-    border: 1px solid orange;
-    background-color: orange;
+    font-size: 100%;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
-    border-radius: 5px;
-    letter-spacing: 5px;
-    text-decoration: none;
-    overflow: hidden;
-    float: right;
 }
-article .btn:hover{
-    background-color: #fff;
-    border: 1px solid orange;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
-    color: orange;
-    overflow: hidden;
+
+#sub img{
+    color: #fff;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contents p{
+    color: #fff;
+    font-size: 100%;
+    padding-left: 3%;
 }
 
 footer{
