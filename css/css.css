@@ -194,6 +194,7 @@ footer{
     background-color: #313131;
 }
 footer address{
+    font-style: normal;
     color: #fff;
-    letter-spacing: 5px;
+    letter-spacing: 0px;
 }
