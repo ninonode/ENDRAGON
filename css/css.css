@@ -4,7 +4,7 @@
 body{
 font: 14px/1.6 "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
 margin:0;
-color:#313131;
+color:#fff;
 font-style: normal;
 }
 
@@ -192,7 +192,6 @@ footer{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #000000;
 }
 footer p{
     color: #fff;
