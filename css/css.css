@@ -59,7 +59,7 @@ header p{
     float: left;
 }
 
-#main img{
+.main{
     width: 100%;
     margin-bottom: 20px;
 }
