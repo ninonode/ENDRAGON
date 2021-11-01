@@ -106,9 +106,7 @@ a.btn-c {
   border-radius: 100vh;
 }
 
-a.btn-c i.fa {
-  margin-right: 1rem;
-}
+
 
 a.btn-c:before {
   font-family: 'Font Awesome 5 Free';
@@ -116,8 +114,8 @@ a.btn-c:before {
   line-height: 1;
   position: absolute;
   top: calc(50% - .8rem);
-  right: 1rem;
+
   margin: 0;
   padding: 0;
-  content: '\f054';
+
 }
