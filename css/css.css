@@ -17,8 +17,8 @@ body {
     font: 14px/1.6 "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
 	margin:0;
 	color: white;
-	background: rgb(0,0,0);
-	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(0,32,166,1) 100%);
+	background: black;
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 18%, rgba(99,122,153,1) 100%);
 }
 
 div {
