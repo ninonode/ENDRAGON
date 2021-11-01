@@ -81,22 +81,22 @@ button.btn {
 }
 
 a.btn--yellow {
-color: #000;
+color: #fff;
   background-color: #53a6d7;
 }
 
 a.btn--yellow:hover {
-  color: #000;
+  color: #fff;
   background: #53a6d7;
 }
 
 a.btn--yellow.btn--cubic {
-  border-bottom: 5px solid #4a95c1;
+  border-bottom: 5px solid #3b779a;
 }
 
 a.btn--yellow.btn--cubic:hover {
   margin-top: 3px;
-  border-bottom: 2px solid #4a95c1;
+  border-bottom: 2px solid #3b779a;
 }
 
 a.btn-c {
