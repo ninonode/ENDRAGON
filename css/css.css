@@ -18,7 +18,7 @@ body {
 	margin:0;
 	color: white;
 	background: black;
-	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 18%, rgba(99,122,153,1) 100%);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 18%, rgba(58,71,89,1) 100%);
 }
 
 div {
