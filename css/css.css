@@ -107,15 +107,3 @@ a.btn-c {
 }
 
 
-
-a.btn-c:before {
-  font-family: 'Font Awesome 5 Free';
-  font-size: 1.6rem;
-  line-height: 1;
-  position: absolute;
-  top: calc(50% - .8rem);
-
-  margin: 0;
-  padding: 0;
-
-}
