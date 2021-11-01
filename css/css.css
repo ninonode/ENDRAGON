@@ -80,45 +80,50 @@ button.btn {
   border-radius: 0.5rem;
 }
 
-a.btn--yellow {
-color: #000;
-  background-color: #fff100;
-}
-
-a.btn--yellow:hover {
-  color: #000;
-  background: #fff20a;
-}
-
-a.btn--yellow.btn--cubic {
-  border-bottom: 5px solid #ccc100;
-}
-
-a.btn--yellow.btn--cubic:hover {
-  margin-top: 3px;
-  border-bottom: 2px solid #ccc100;
-}
-
 a.btn-c {
   font-size: 1.8rem;
-  position: relative;
-  padding: 2rem 5rem 2rem 3rem;
-  border-radius: 100vh;
-}
 
-a.btn-c i.fa {
-  margin-right: 1rem;
+  position: relative;
+
+  padding: 2rem 4rem 2rem 2rem;
+
+  -webkit-transition: all 0.3s;
+
+  transition: all 0.3s;
+
+  color: #fff;
+  border-radius: 100vh;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#007adf),
+    to(#00ecbc)
+  );
+  background-image: -webkit-linear-gradient(left, #007adf 0%, #00ecbc 100%);
+  background-image: linear-gradient(to right, #007adf 0%, #00ecbc 100%);
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 a.btn-c:before {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-size: 1.6rem;
   line-height: 1;
+
   position: absolute;
-  top: calc(50% - .8rem);
+  top: calc(50% - 0.8rem);
   right: 1rem;
+
   margin: 0;
   padding: 0;
-  content: '\f054';
+
+
 }
 
+a.btn-c:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+  color: #fff;
+}
